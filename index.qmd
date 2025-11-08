@@ -59,7 +59,43 @@ Observational, cross-sectional survey using an anonymous and open e-survey. 
 
 -   Tests and interventions
 
-    -   
+    -   do an inherited thrombophilia evaluation for women with histories of pregnancy loss, fetal growth restriction (FGR), preeclampsia and abruption.
+
+    -   screen for fetal growth restriction (FGR) with Doppler blood flow studies.
+
+    -   use progestogens for preterm birth prevention in uncomplicated multifetal gestations.
+
+    -   perform routine cervical length screening for preterm birth risk assessment in asymptomatic women before 16 weeks of gestation or beyond 24 weeks of gestation.
+
+    -   perform antenatal testing on women with the diagnosis of gestational diabetes who are well controlled by diet alone and without other indications for testing.
+
+    -   place women, even those at high-risk, on activity restriction to prevent preterm birth.
+
+    -   perform maternal serologic studies for cytomegalovirus and toxoplasma as part of routine prenatal laboratory studies.
+
+    -   perform serial cervical length measurement following cerclage placement.
+
+    -   test women for methylenetetrahydrofolate reductase mutations.
+
+    -   screen asymptomatic pregnant women for subclinical hypothyroidism.
+
+    -   perform routine cell-free DNA screening for microdeletions.
+
+    -   perform routine midtrimester serum biomarker risk stratification for preterm birth or preeclampsia in asymptomatic women.
+
+    -   recommend delivery in a nondiabetic patient for suspected macrosomia before 39 0/7 weeks of gestation.
+
+    -   do routine episiotomy in spontaneous vaginal births.
+
+    -   do electronic fetal monitoring for low risk women in labour.
+
+    -   perform umbilical artery Doppler studies as a routine screening test in uncomplicated pregnancies with normal fetal growth.
+
+    -   do a caesarean delivery for failure of progress in labour in the latent phase of labour for a woman at term with a singleton fetus and vertex presentation.
+
+    -   proceed to the early clamping (before 1 minute after birth) of the umbilical cord.
+
+    -   schedule routine repeated cesarean section (CS) in all the pregnant women with a previous cesarean section.
 
 ## Pilot and content validation
 
