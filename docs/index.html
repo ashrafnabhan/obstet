@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Obstetricians’ Knowledge of Non-Recommended pregnancy and childbirth Practices: A cross-sectional e-survey protocol</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a74871fe4945b66d259aafc266475145.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<meta name="citation_title" content="Obstetricians’ Knowledge of Non-Recommended pregnancy and childbirth Practices: A cross-sectional e-survey protocol">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=OpenEpi: Open source epidemiologic statistics for public health, version 3.01;,citation_author=A. G. Dean;,citation_author=K. M. Sullivan;,citation_author=M. M. Soe;,citation_publication_date=2013;,citation_cover_date=2013;,citation_year=2013;,citation_publisher=https://www.openepi.com;">
+<meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
+<meta name="citation_reference" content="citation_title=R: A language and environment for statistical computing;,citation_author=R Core Team undefined;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_fulltext_html_url=https://www.R-project.org/;">
+<meta name="citation_reference" content="citation_title=Good practice recommendations on add-ons in reproductive medicine;,citation_author=K Lundin;,citation_author=J G Bentzen;,citation_author=G Bozdag;,citation_author=T Ebner;,citation_author=J Harper;,citation_author=N Le Clef;,citation_author=A Moffett;,citation_author=S Norcross;,citation_author=N P Polyzos;,citation_author=S Rautakallio-Hokkanen;,citation_author=I Sfontouris;,citation_author=K Sermon;,citation_author=N Vermeulen;,citation_author=A Pinborg;,citation_publication_date=2023-09-25;,citation_cover_date=2023-09-25;,citation_year=2023;,citation_fulltext_html_url=http://dx.doi.org/10.1093/humrep/dead184;,citation_issue=11;,citation_doi=10.1093/humrep/dead184;,citation_volume=38;,citation_language=en;,citation_journal_title=Human Reproduction;">
+<meta name="citation_reference" content="citation_title=Intracytoplasmic sperm injection (ICSI) for nonmale factor indications: a committee opinion;,citation_author=Practice Committees American Society for Reproductive Medicine;,citation_author=undefined Society for Assisted Reproductive Technology;,citation_publication_date=2020-08;,citation_cover_date=2020-08;,citation_year=2020;,citation_fulltext_html_url=http://dx.doi.org/10.1016/j.fertnstert.2020.05.032;,citation_issue=2;,citation_doi=10.1016/j.fertnstert.2020.05.032;,citation_volume=114;,citation_language=en;,citation_journal_title=Fertility and Sterility;">
+<meta name="citation_reference" content="citation_title=Improving the Quality of Web Surveys: The Checklist for Reporting Results of Internet E-Surveys (CHERRIES);,citation_author=Gunther Eysenbach;,citation_publication_date=2004-09-29;,citation_cover_date=2004-09-29;,citation_year=2004;,citation_fulltext_html_url=http://dx.doi.org/10.2196/jmir.6.3.e34;,citation_issue=3;,citation_doi=10.2196/jmir.6.3.e34;,citation_volume=6;,citation_language=en;,citation_journal_title=Journal of Medical Internet Research;">
+<meta name="citation_reference" content="citation_title=Low-Value Surgical Procedures in Low- and Middle-Income Countries;,citation_author=Loai Albarqouni;,citation_author=Eman Abukmail;,citation_author=Majdeddin MohammedAli;,citation_author=Sewar Elejla;,citation_author=Mohamed Abuelazm;,citation_author=Hosam Shaikhkhalil;,citation_author=Thanya Pathirana;,citation_author=Sujeewa Palagama;,citation_author=Emmanuel Effa;,citation_author=Eleanor Ochodo;,citation_author=Eulade Rugengamanzi;,citation_author=Yousef AlSabaa;,citation_author=Ale Ingabire;,citation_author=Francis Riwa;,citation_author=Burhan Goraya;,citation_author=Mina Bakhit;,citation_author=Justin Clark;,citation_author=Morteza Arab-Zozani;,citation_author=Suzanna Alves da Silva;,citation_author=C. S. Pramesh;,citation_author=Verna Vanderpuye;,citation_author=Eddy Lang;,citation_author=Deborah Korenstein;,citation_author=Karen Born;,citation_author=Stephen Tabiri;,citation_author=Adesoji Ademuyiwa;,citation_author=Ashraf Nabhan;,citation_author=Ray Moynihan;,citation_publication_date=2023-11-07;,citation_cover_date=2023-11-07;,citation_year=2023;,citation_fulltext_html_url=http://dx.doi.org/10.1001/jamanetworkopen.2023.42215;,citation_issue=11;,citation_doi=10.1001/jamanetworkopen.2023.42215;,citation_volume=6;,citation_language=en;,citation_journal_title=JAMA Network Open;">
+<meta name="citation_reference" content="citation_title=Evaluating interventions and adjuncts to optimize pregnancy outcomes in subfertile women: an overview review;,citation_author=Ashleigh Holt-Kentwell;,citation_author=Jayasish Ghosh;,citation_author=Adam Devall;,citation_author=Arri Coomarasamy;,citation_author=Rima K Dhillon-Smith;,citation_publication_date=2022-02-08;,citation_cover_date=2022-02-08;,citation_year=2022;,citation_fulltext_html_url=http://dx.doi.org/10.1093/humupd/dmac001;,citation_issue=4;,citation_doi=10.1093/humupd/dmac001;,citation_volume=28;,citation_language=en;,citation_journal_title=Human Reproduction Update;">
+</head>
+
+<body class="quarto-light">
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Obstetricians’ Knowledge of Non-Recommended pregnancy and childbirth Practices: A cross-sectional e-survey protocol</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+        
+        <div class="quarto-title-meta">
+
+                
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div><div class="quarto-title-meta-contents"><p><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></p></div></div></div>
+    </div>
+
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#study-protocol" id="toc-study-protocol" class="nav-link active" data-scroll-target="#study-protocol">Study Protocol</a>
+  <ul class="collapse">
+  <li><a href="#background-and-rationale" id="toc-background-and-rationale" class="nav-link" data-scroll-target="#background-and-rationale">Background and rationale</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#study-design" id="toc-study-design" class="nav-link" data-scroll-target="#study-design">Study design</a></li>
+  <li><a href="#eligibility-criteria" id="toc-eligibility-criteria" class="nav-link" data-scroll-target="#eligibility-criteria">Eligibility criteria</a></li>
+  <li><a href="#sampling-and-recruitment" id="toc-sampling-and-recruitment" class="nav-link" data-scroll-target="#sampling-and-recruitment">Sampling and recruitment</a></li>
+  <li><a href="#questionnaire-development" id="toc-questionnaire-development" class="nav-link" data-scroll-target="#questionnaire-development">Questionnaire development</a></li>
+  <li><a href="#pilot-and-content-validation" id="toc-pilot-and-content-validation" class="nav-link" data-scroll-target="#pilot-and-content-validation">Pilot and content validation</a></li>
+  <li><a href="#sample-size-calculation" id="toc-sample-size-calculation" class="nav-link" data-scroll-target="#sample-size-calculation">Sample size calculation</a></li>
+  <li><a href="#data-collection-procedures" id="toc-data-collection-procedures" class="nav-link" data-scroll-target="#data-collection-procedures">Data collection procedures</a></li>
+  <li><a href="#ethical-considerations" id="toc-ethical-considerations" class="nav-link" data-scroll-target="#ethical-considerations">Ethical considerations</a></li>
+  <li><a href="#consent-text" id="toc-consent-text" class="nav-link" data-scroll-target="#consent-text">Consent text</a></li>
+  <li><a href="#data-management" id="toc-data-management" class="nav-link" data-scroll-target="#data-management">Data management</a></li>
+  <li><a href="#statistical-analysis-plan" id="toc-statistical-analysis-plan" class="nav-link" data-scroll-target="#statistical-analysis-plan">Statistical analysis plan</a></li>
+  <li><a href="#limitation" id="toc-limitation" class="nav-link" data-scroll-target="#limitation">Limitation</a></li>
+  <li><a href="#dissemination-plan" id="toc-dissemination-plan" class="nav-link" data-scroll-target="#dissemination-plan">Dissemination plan</a></li>
+  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="study-protocol" class="level1">
+<h1>Study Protocol</h1>
+<section id="background-and-rationale" class="level2">
+<h2 class="anchored" data-anchor-id="background-and-rationale">Background and rationale</h2>
+<p>Evidence-based medicine underpins the delivery of high-quality obstetric care by promoting clinical decisions grounded in robust research evidence, professional expertise, and patient-centered values. Despite the availability of comprehensive evidence-based guidelines, numerous studies have demonstrated the persistent use of interventions and diagnostic practices in obstetrics that are not supported—or are explicitly discouraged—by current evidence. Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications. This can have negative repercussions on healthcare quality and equity, particularly in Low and Middle Income Countries <span class="citation" data-cites="albarqouni2023">(<a href="#ref-albarqouni2023" role="doc-biblioref">Albarqouni et al. 2023</a>)</span></p>
+<p>Assessing the level of knowledge among obstetricians regarding non-recommended interventions is therefore essential to understanding the factors contributing to their continued use. This survey seeks to evaluate obstetricians’ awareness and understanding of selected tests and interventions that are inconsistent with evidence-based recommendations. The findings are expected to highlight potential knowledge gaps, inform targeted educational strategies, and ultimately support the alignment of clinical practice with the best available evidence.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li><p>Primary objective: to estimate the proportion of practicing obstetricians who correctly identify that a given test or intervention is <strong>not</strong> recommended by evidence-based guidelines.</p></li>
+<li><p>Secondary objectives: to identify</p>
+<ul>
+<li><p>physician characteristics associated with adequate knowledge.</p></li>
+<li><p>perceived barriers to guideline adherence</p></li>
+<li><p>preferred educational formats.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="study-design" class="level2">
+<h2 class="anchored" data-anchor-id="study-design">Study design</h2>
+<p>Observational,&nbsp;cross-sectional&nbsp;survey using an&nbsp;anonymous&nbsp;and open e-survey. The web-based form will be distributed in January 2026 using the secured university MS forms.</p>
+</section>
+<section id="eligibility-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="eligibility-criteria">Eligibility criteria</h2>
+<ul>
+<li><p>Inclusion criteria</p>
+<ul>
+<li><p>Medical doctors currently practicing as obstetricians in clinical practice in Egypt.</p></li>
+<li><p>Agree to participate (implied consent by survey completion).</p></li>
+</ul></li>
+<li><p>Exclusion criteria</p>
+<ul>
+<li>Fresh graduates and house officers.</li>
+</ul></li>
+</ul>
+</section>
+<section id="sampling-and-recruitment" class="level2">
+<h2 class="anchored" data-anchor-id="sampling-and-recruitment">Sampling and recruitment</h2>
+<ul>
+<li><p>Convenience sample</p></li>
+<li><p>Recruitment procedure: visits to hospital departments and antenatal care clinics to improve response rates.</p></li>
+</ul>
+</section>
+<section id="questionnaire-development" class="level2">
+<h2 class="anchored" data-anchor-id="questionnaire-development">Questionnaire development</h2>
+<ul>
+<li><p>Questionnaire sections</p>
+<ul>
+<li><p>Participant demographics and practice characteristics</p></li>
+<li><p>Knowledge items about specific tests or interventions</p></li>
+<li><p>Attitudes and barriers to guideline adherence</p></li>
+<li><p>Sources of clinical information and preferred educational formats</p></li>
+</ul></li>
+<li><p>Tests and interventions</p>
+<ul>
+<li></li>
+</ul></li>
+</ul>
+</section>
+<section id="pilot-and-content-validation" class="level2">
+<h2 class="anchored" data-anchor-id="pilot-and-content-validation">Pilot and content validation</h2>
+<ul>
+<li><p>Draft questionnaire will be reviewed by one content experts (senior obstetrician) and one methodologist for face validity.</p></li>
+<li><p>Pilot testing</p>
+<ul>
+<li><p>Pilot with 5 respondents representative of target population.</p></li>
+<li><p>Assess completion time, item clarity, technical issues, and initial distribution of responses.</p></li>
+<li><p>Revise questionnaire and platform per pilot findings.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="sample-size-calculation" class="level2">
+<h2 class="anchored" data-anchor-id="sample-size-calculation">Sample size calculation</h2>
+<ul>
+<li>Primary outcome: proportion with correct knowledge of the non-recommended practices.</li>
+</ul>
+<p>As no prior data were available to estimate the expected proportion, a conservative assumption of p = 0.5 was used to maximize the required sample size. For a 99% confidence level (Z = 2.576) and a 10% margin of error (d = 0.10), the minimum calculated sample size was 167 participants. To allow for an anticipated non-response rate of 20%, the total number of invitations was increased to 200 participants. <span class="citation" data-cites="Dean2013OpenEpi">Dean, Sullivan, and Soe (<a href="#ref-Dean2013OpenEpi" role="doc-biblioref">2013</a>)</span></p>
+</section>
+<section id="data-collection-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-procedures">Data collection procedures</h2>
+<ul>
+<li><p>Implement e-survey in a secured university MS form.</p></li>
+<li><p>Ensure anonymity: we will not collect identifiable data</p></li>
+</ul>
+</section>
+<section id="ethical-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="ethical-considerations">Ethical considerations</h2>
+<ul>
+<li><p>Submit protocol to Ain Shams institutional review board (IRB).</p></li>
+<li><p>No risk: survey of professionals knowledge with complete anonymity.</p></li>
+<li><p>Consent: will include brief information on purpose, voluntary nature, and data use. Proceeding to the survey implies consent.</p></li>
+<li><p>Data storage: store anonymous data on encrypted institutional servers.</p></li>
+</ul>
+</section>
+<section id="consent-text" class="level2">
+<h2 class="anchored" data-anchor-id="consent-text">Consent text</h2>
+<p>You are invited to participate in a research survey about obstetric tests and interventions. Participation is voluntary and anonymous. The survey takes 10 minutes. Results will be reported in aggregate only. By proceeding you give consent for your anonymous responses to be used for research and publications.</p>
+</section>
+<section id="data-management" class="level2">
+<h2 class="anchored" data-anchor-id="data-management">Data management</h2>
+<ul>
+<li><p>Export data to R software.</p></li>
+<li><p>Store raw data for three years per institutional policy.</p></li>
+</ul>
+</section>
+<section id="statistical-analysis-plan" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-analysis-plan">Statistical analysis plan</h2>
+<ul>
+<li><p>Descriptive</p>
+<ul>
+<li><p>Participant characteristics: frequencies/percentages for categorical variables, mean ± SD or median (IQR) for continuous variables.</p></li>
+<li><p>Proportion correct for each knowledge item with 95% CI.</p></li>
+<li><p>Total knowledge score = sum(correct items). Transform to percentage correct.</p></li>
+<li><p>Categorize knowledge ( Q1 = High, Q2 = moderate, Q3 = low, Q4 = very low)</p></li>
+</ul></li>
+<li><p>Inferential</p>
+<ul>
+<li><p>Binomial Exact test.</p></li>
+<li><p>Logistic regression: outcome = adequate knowledge (q1 and q2) (binary) to estimate adjusted odds ratios for predictors (years since qualification, practice type).</p></li>
+</ul></li>
+<li><p>Missing data</p>
+<ul>
+<li>All fields of the e-survey will be required. This will ensure a complete data set.</li>
+</ul></li>
+<li><p>Statistical significance</p>
+<ul>
+<li>Two-sided tests; p&lt;0.05 considered significant.</li>
+</ul></li>
+<li><p>Software: R v4.5 <span class="citation" data-cites="base">(<a href="#ref-base" role="doc-biblioref">2025</a>)</span></p></li>
+</ul>
+</section>
+<section id="limitation" class="level2">
+<h2 class="anchored" data-anchor-id="limitation">Limitation</h2>
+<ul>
+<li>Sampling bias due to the use of convenience sampling.</li>
+</ul>
+</section>
+<section id="dissemination-plan" class="level2">
+<h2 class="anchored" data-anchor-id="dissemination-plan">Dissemination plan</h2>
+<ul>
+<li><p>Publish in peer-reviewed journal and present at conferences.</p></li>
+<li><p>We will report the study according to the CHERRIES checklist. <span class="citation" data-cites="Eysenbach2004">(<a href="#ref-Eysenbach2004" role="doc-biblioref">Eysenbach 2004</a>)</span></p></li>
+</ul>
+</section>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
+<ul>
+<li><p>Week 1: questionnaire drafting</p></li>
+<li><p>Week 2: testing and final revision</p></li>
+<li><p>Week 3–4: Ethics approval</p></li>
+<li><p>Week 5–6: data collection</p></li>
+<li><p>Week 7: data analysis</p></li>
+<li><p>Week 8: manuscript preparation and dissemination</p></li>
+</ul>
+</section>
+</section>
+<section id="references" class="level1 unnumbered">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-albarqouni2023" class="csl-entry" role="listitem">
+Albarqouni, Loai, Eman Abukmail, Majdeddin MohammedAli, Sewar Elejla, Mohamed Abuelazm, Hosam Shaikhkhalil, Thanya Pathirana, et al. 2023. <span>“Low-Value Surgical Procedures in Low- and Middle-Income Countries.”</span> <em>JAMA Network Open</em> 6 (11): e2342215. <a href="https://doi.org/10.1001/jamanetworkopen.2023.42215">https://doi.org/10.1001/jamanetworkopen.2023.42215</a>.
+</div>
+<div id="ref-Dean2013OpenEpi" class="csl-entry" role="listitem">
+Dean, A. G., K. M. Sullivan, and M. M. Soe. 2013. <span>“OpenEpi: Open Source Epidemiologic Statistics for Public Health, Version 3.01.”</span> <a href="https://www.openepi.com" class="uri">https://www.openepi.com</a>.
+</div>
+<div id="ref-Eysenbach2004" class="csl-entry" role="listitem">
+Eysenbach, Gunther. 2004. <span>“Improving the Quality of Web Surveys: The Checklist for Reporting Results of Internet E-Surveys (CHERRIES).”</span> <em>Journal of Medical Internet Research</em> 6 (3): e34. <a href="https://doi.org/10.2196/jmir.6.3.e34">https://doi.org/10.2196/jmir.6.3.e34</a>.
+</div>
+<div id="ref-base" class="csl-entry" role="listitem">
+R Core Team. 2025. <span>“R: A Language and Environment for Statistical Computing.”</span> <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,160 @@
+---
+title: "Obstetricians’ Knowledge of Non-Recommended pregnancy and childbirth Practices: A cross-sectional e-survey protocol"
+bibliography: references.bib
+---
+
+# Study Protocol
+
+## Background and rationale
+
+Evidence-based medicine underpins the delivery of high-quality obstetric care by promoting clinical decisions grounded in robust research evidence, professional expertise, and patient-centered values. Despite the availability of comprehensive evidence-based guidelines, numerous studies have demonstrated the persistent use of interventions and diagnostic practices in obstetrics that are not supported—or are explicitly discouraged—by current evidence. Inadequate knowledge of the best available research evidence can lead to unnecessary procedures, patient distress, increased healthcare costs, and possible avoidable complications. This can have negative repercussions on healthcare quality and equity, particularly in Low and Middle Income Countries [@albarqouni2023]
+
+Assessing the level of knowledge among obstetricians regarding non-recommended interventions is therefore essential to understanding the factors contributing to their continued use. This survey seeks to evaluate obstetricians’ awareness and understanding of selected tests and interventions that are inconsistent with evidence-based recommendations. The findings are expected to highlight potential knowledge gaps, inform targeted educational strategies, and ultimately support the alignment of clinical practice with the best available evidence.
+
+## Objectives
+
+-   Primary objective: to estimate the proportion of practicing obstetricians who correctly identify that a given test or intervention is **not** recommended by evidence-based guidelines.
+
+-   Secondary objectives: to identify
+
+    -   physician characteristics associated with adequate knowledge.
+
+    -   perceived barriers to guideline adherence
+
+    -   preferred educational formats.
+
+## Study design
+
+Observational, cross-sectional survey using an anonymous and open e-survey. The web-based form will be distributed in January 2026 using the secured university MS forms.
+
+## Eligibility criteria
+
+-   Inclusion criteria
+
+    -   Medical doctors currently practicing as obstetricians in clinical practice in Egypt.
+
+    -   Agree to participate (implied consent by survey completion).
+
+-   Exclusion criteria
+
+    -   Fresh graduates and house officers.
+
+## Sampling and recruitment
+
+-   Convenience sample
+
+-   Recruitment procedure: visits to hospital departments and antenatal care clinics to improve response rates.
+
+## Questionnaire development
+
+-   Questionnaire sections
+
+    -   Participant demographics and practice characteristics
+
+    -   Knowledge items about specific tests or interventions
+
+    -   Attitudes and barriers to guideline adherence
+
+    -   Sources of clinical information and preferred educational formats
+
+-   Tests and interventions
+
+    -   
+
+## Pilot and content validation
+
+-   Draft questionnaire will be reviewed by one content experts (senior obstetrician) and one methodologist for face validity.
+
+-   Pilot testing
+
+    -   Pilot with 5 respondents representative of target population.
+
+    -   Assess completion time, item clarity, technical issues, and initial distribution of responses.
+
+    -   Revise questionnaire and platform per pilot findings.
+
+## Sample size calculation
+
+-   Primary outcome: proportion with correct knowledge of the non-recommended practices.
+
+As no prior data were available to estimate the expected proportion, a conservative assumption of p = 0.5 was used to maximize the required sample size. For a 99% confidence level (Z = 2.576) and a 10% margin of error (d = 0.10), the minimum calculated sample size was 167 participants. To allow for an anticipated non-response rate of 20%, the total number of invitations was increased to 200 participants. @Dean2013OpenEpi
+
+## Data collection procedures
+
+-   Implement e-survey in a secured university MS form.
+
+-   Ensure anonymity: we will not collect identifiable data
+
+## Ethical considerations
+
+-   Submit protocol to Ain Shams institutional review board (IRB).
+
+-   No risk: survey of professionals knowledge with complete anonymity.
+
+-   Consent: will include brief information on purpose, voluntary nature, and data use. Proceeding to the survey implies consent.
+
+-   Data storage: store anonymous data on encrypted institutional servers.
+
+## Consent text
+
+You are invited to participate in a research survey about obstetric tests and interventions. Participation is voluntary and anonymous. The survey takes 10 minutes. Results will be reported in aggregate only. By proceeding you give consent for your anonymous responses to be used for research and publications.
+
+## Data management
+
+-   Export data to R software.
+
+-   Store raw data for three years per institutional policy.
+
+## Statistical analysis plan
+
+-   Descriptive
+
+    -   Participant characteristics: frequencies/percentages for categorical variables, mean ± SD or median (IQR) for continuous variables.
+
+    -   Proportion correct for each knowledge item with 95% CI.
+
+    -   Total knowledge score = sum(correct items). Transform to percentage correct.
+
+    -   Categorize knowledge ( Q1 = High, Q2 = moderate, Q3 = low, Q4 = very low)
+
+-   Inferential
+
+    -   Binomial Exact test.
+
+    -   Logistic regression: outcome = adequate knowledge (q1 and q2) (binary) to estimate adjusted odds ratios for predictors (years since qualification, practice type).
+
+-   Missing data
+
+    -   All fields of the e-survey will be required. This will ensure a complete data set.
+
+-   Statistical significance
+
+    -   Two-sided tests; p\<0.05 considered significant.
+
+-   Software: R v4.5 [@base]
+
+## Limitation
+
+-   Sampling bias due to the use of convenience sampling.
+
+## Dissemination plan
+
+-   Publish in peer-reviewed journal and present at conferences.
+
+-   We will report the study according to the CHERRIES checklist. [@Eysenbach2004]
+
+## Timeline
+
+-   Week 1: questionnaire drafting
+
+-   Week 2: testing and final revision
+
+-   Week 3–4: Ethics approval
+
+-   Week 5–6: data collection
+
+-   Week 7: data analysis
+
+-   Week 8: manuscript preparation and dissemination
+
+# References
